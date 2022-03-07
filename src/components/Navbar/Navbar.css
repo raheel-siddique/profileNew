@@ -1,0 +1,57 @@
+/* navbar style start */
+body {
+  background-color: lightgray;
+}
+.navbar-bg {
+  background-color: white;
+  /* padding: 1rem 0; */
+  z-index: 99;
+  position: relative;
+}
+.navbar-brand {
+  font-size: 2.9rem;
+}
+.myLogo {
+  color: rgb(90, 174, 247);
+  text-shadow: 1px 1px 3px;
+}
+.seclogo {
+  color: rgb(5, 248, 5);
+  text-shadow: 1px 1px 3px;
+}
+
+li {
+  padding-right: 3rem;
+  font-size: 1.5rem;
+  /* font-weight: normal; */
+  font-weight: lighter;
+  position: relative;
+  left: 20px;
+}
+.listValues {
+  color: rgb(133, 133, 133);
+}
+.listValues :hover {
+  color: rgb(250, 7, 7);
+}
+.btn-style {
+  width: 8rem;
+  border-radius: 30px;
+  background-color: rgb(147, 201, 248);
+  color: white;
+  border-color: rgb(147, 201, 248);
+  font-size: 1.3rem;
+  position: relative;
+  left: 40px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    position: relative;
+    left: 80px;
+  }
+  .btn-style {
+    position: relative;
+    left: 80px;
+    width: 10rem;
+  }
+}
