@@ -54,6 +54,7 @@
 @media only screen and (max-width: 600px) {
   .mainhomediv {
     overflow: scroll;
+    margin-bottom: 130px;
   }
   .homepagediv {
     position: relative;
