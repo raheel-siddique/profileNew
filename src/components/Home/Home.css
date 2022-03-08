@@ -1,12 +1,53 @@
 .homepagediv {
-  background-image: linear-gradient(
-    102.1deg,
-    rgba(96, 221, 142, 1) 8.7%,
-    rgba(24, 138, 141, 1) 88.1%
-  );
-  height: 500px;
+  /* background-image: linear-gradient(
+    65.9deg,
+    rgba(85, 228, 224, 1) 5.5%,
+    rgba(75, 68, 224, 0.74) 54.2%,
+    rgba(64, 198, 238, 1) 55.2%,
+    rgba(177, 36, 224, 1) 98.4%
+  ); */
+  background-color: rgb(215, 239, 247);
+  height: 530px;
 }
 .iconslist {
   display: flex;
   list-style-type: none;
+}
+.homeleftside {
+  line-height: 100px;
+  position: relative;
+  left: 100px;
+  /* margin-left: 40px; */
+}
+.leftsec {
+  color: rgb(37, 37, 37);
+}
+.iconslist {
+  margin-left: 110px;
+}
+.homebtns {
+  position: relative;
+  right: 20px;
+  border-radius: 20px;
+}
+.btn1 {
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+}
+.sect2div2 {
+  background-color: #fff;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 160px;
+  top: 60px;
+  background-image: url(C:\frontend\newprofilets\myprofile\public\raheel.jfif);
+  background-color: #cccccc; /* Used if the image is unavailable */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 50%;
+  /* border: 2px solid white; */
 }

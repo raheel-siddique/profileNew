@@ -5,40 +5,41 @@ import GoogleIcon from '@mui/icons-material/Google';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import "./Home.css";
+import { style } from '@mui/system';
 
 export default function Home() {
   return (
     <div>
         <div className='container-fluid'>
             <div className="row homepagediv">
-                <div className="col-12 col-lg-6">
-                    <h2 className="leftsec display-7">
-                       Hi I am Raheel Siddique
-                        </h2>
+                <div className="col-12 col-lg-6 mt-5 p-5 homeleftside">
+                    <h3 className="leftsec display-6 ">
+                       Hi I 'm Raheel Siddique
+                        </h3>
                         <ReactTypical
-		steps={['Hello I Am Web Designer', 1000, 'Hello I Am Web Developer', 2000,'Hello I Am React Ts Developer', 2000,'Hello I Am React Js Developer', 2000]}
+		steps={[ ' I m Web Designer', 1000,"red", ' I m Web Developer', 1000,' I m React Ts Developer', 1000,' I m React Js Developer', 1000]}
 		loop={Infinity}
 		wrapper="h1"
+        style={{color:"red", marginTop:30, fontFamily:"sans-serif"}}
 	/>
    <div className="btnsOfhome ">
        <ul className='iconslist'>
-           <li><a href="#"><FacebookIcon style={{color:"white"}} /></a></li>
-           <li><a href="#"><GoogleIcon  style={{color:"white"}} /></a></li>
+           <li><a href="#"><FacebookIcon style={{color:"rgb(147, 201, 248);"}} /></a></li>
+           <li><a href="#"><GoogleIcon  style={{color:"rgb(147, 201, 248);"}} /></a></li>
 
-           <li><a href="#"><InstagramIcon  style={{color:"white"}} /></a></li>
-           <li><a href="#"><YouTubeIcon  style={{color:"white"}} /></a></li>
+           <li><a href="#"><InstagramIcon  style={{color:"rgb(147, 201, 248);"}} /></a></li>
+           <li><a href="#"><YouTubeIcon  style={{color:"rgb(147, 201, 248);"}} /></a></li>
 
            
 
        </ul>
-   <button className='btn btn-outline-light rounded ' >Contact Me</button>
-    <button className='btn btn-outline-danger ' style={{marginLeft:20}} >Get Resume</button></div>
-    
+       <div className="homebtns">
+   <button className='btn btn-outline-primary btn1 ' >Contact Me</button>
+    <button className='btn btn-outline-danger btn1' style={{marginLeft:20}} >Get Resume</button></div>
+    </div>
                     </div>
-                <div className="col-12 col-lg-6">
-                <h1 className="rightsec">
-                    Rasim
-                        </h1>
+                <div className="col-12 col-lg-6 sect2div2">
+
                     </div>
 
                 </div>
