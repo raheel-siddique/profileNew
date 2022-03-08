@@ -42,7 +42,8 @@
   position: relative;
   left: 160px;
   top: 60px;
-  background-image: url(C:\frontend\newprofilets\myprofile\public\raheel.jfif);
+
+  background-image: url(C:\frontend\newprofilets\myprofile\public\83028742_2566392140269453_4781301153189068800_n.jpg);
   background-color: #cccccc; /* Used if the image is unavailable */
 
   background-position: center; /* Center the image */
@@ -51,6 +52,7 @@
   border-radius: 50%;
   /* border: 2px solid white; */
 }
+
 @media only screen and (max-width: 600px) {
   .mainhomediv {
     overflow: scroll;

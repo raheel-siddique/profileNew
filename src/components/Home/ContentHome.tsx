@@ -36,7 +36,7 @@ export default function ContentHome() {
     </div>
                     </div>
                 <div className="col-12 col-lg-6 sect2div2">
-
+ 
                     </div>
 
                 </div>
