@@ -51,3 +51,29 @@
   border-radius: 50%;
   /* border: 2px solid white; */
 }
+@media only screen and (max-width: 600px) {
+  .mainhomediv {
+    overflow: scroll;
+  }
+  .homepagediv {
+    position: relative;
+    right: 80px;
+    background-color: transparent;
+  }
+  .iconslist {
+    position: relative;
+    right: 130px;
+  }
+  .btn2 {
+    position: relative;
+    right: 10px;
+  }
+  .sect2div2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 0;
+    width: 300px;
+    position: relative;
+    right: 100px;
+  }
+}

@@ -10,7 +10,7 @@ import { style } from '@mui/system';
 export default function Home() {
   return (
     <div>
-        <div className='container-fluid'>
+        <div className='container-fluid mainhomediv'>
             <div className="row homepagediv">
                 <div className="col-12 col-lg-6 mt-5 p-5 homeleftside">
                     <h3 className="leftsec display-6 ">
@@ -35,7 +35,7 @@ export default function Home() {
        </ul>
        <div className="homebtns">
    <button className='btn btn-outline-primary btn1 ' >Contact Me</button>
-    <button className='btn btn-outline-danger btn1' style={{marginLeft:20}} >Get Resume</button></div>
+    <button className='btn btn-outline-danger btn1 btn2' style={{marginLeft:20}} >Get Resume</button></div>
     </div>
                     </div>
                 <div className="col-12 col-lg-6 sect2div2">
