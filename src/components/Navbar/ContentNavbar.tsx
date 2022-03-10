@@ -21,7 +21,7 @@ export default function ContentNavbar({show,toggleBtn}:NavbarProps) {
           <a className="nav-link active" aria-current="page" href="#"> <span className='listValues'>Home</span> </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"><span className='listValues'>About</span> </a> 
+          <a className="nav-link" href="/about"><span className='listValues'>About</span> </a> 
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#"><span className='listValues'>Skills</span> </a>

@@ -11,28 +11,18 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 
-import {
-  Routes,
 
-  Route,
-  Link
-} from "react-router-dom";
-import Router from './Router';
-
-
-function App() {
+function Router() {
   return (
     <div className="App">
-         <Routes>
-         <Route path="/" element={<Router />} />
-       
-
-
-          
-        </Routes>
+       <Navbar />
+       <Home />
+       <About />
+       <Skills />
+       <Contact />
       
     </div>
   );
 }
 
-export default App;
+export default Router;
