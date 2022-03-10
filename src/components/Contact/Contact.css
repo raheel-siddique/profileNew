@@ -1,0 +1,45 @@
+.formdiv {
+  background-color: #ffffff;
+  width: 400px;
+  box-shadow: 2px 2px 7px black;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+
+  position: relative;
+  left: 20px;
+}
+.conatctdivs {
+  background-color: rgb(251, 251, 251);
+}
+.textfld {
+  border-radius: 30px;
+  box-shadow: 2px 2px 7px black;
+  width: 350px;
+  position: relative;
+  left: 10px;
+}
+.mytextarae {
+  box-shadow: 2px 2px 7px black;
+  width: 350px;
+  position: relative;
+  left: 10px;
+}
+.btnconatctform {
+  width: 250px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  position: relative;
+  top: 13px;
+  box-shadow: 2px 2px 7px black;
+}
+.erroemessageforall {
+  color: red;
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
