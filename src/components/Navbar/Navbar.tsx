@@ -16,8 +16,6 @@ export default function Navbar() {
       <>
        <ContentNavbar show={show} toggleBtn={toggleBtn}  />
       </>
-    // <div>
-
-    // </div>
+    
   )
 }
